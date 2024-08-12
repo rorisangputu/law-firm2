@@ -50,13 +50,13 @@ const HomeConsult = () => {
                 </div>
                 <div className='lg:w-1/2 flex '>
                     <div className='h-full flex flex-col gap-7 md:justify-center md:items-center'>
-                        <h1 className='text-3xl font-medium leading-[5vh]'>
+                        <h1 className='text-3xl font-medium leading-[5vh] lg:text-center lg:mx-20 lg:text-4xl'>
                             Your rights matter, we are here to defend them
                         </h1>
-                        <p className='leading-[3vh]'>
+                        <p className='leading-[3vh] lg:text-center lg:text-xl'>
                             We prioritize our clients&apos; needs, understanding that each case is unique. Our team of seasoned attorneys is committed to delivering tailored solutions, ensuring you receive the attention and representation you deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
                         </p>
-                        <button className="font-custom bg-blue-100 p-4 w-[50%]">
+                        <button className="font-custom bg-blue-100 p-4 w-[50%] lg:text-lg">
                             Get a free consultation
                         </button>
                     </div>
