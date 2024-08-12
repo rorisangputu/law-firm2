@@ -21,7 +21,7 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="flex gap-3">
-                        <button className="font-custom bg-slate-200 p-4">
+                        <button className="font-custom bg-blue-100 p-4">
                             Book Consultation
                         </button>
                         <button className="font-custom text-slate-200 border border-slate-200 p-4">
