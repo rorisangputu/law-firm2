@@ -1,4 +1,6 @@
 import Hero from "../Components/Hero"
+import HomeConsult from "../Components/HomeConsult"
+import HomeServices from "../Components/HomeServices"
 import Integrity from "../Components/Integrity"
 import Standards from "../Components/Standards"
 
@@ -8,6 +10,8 @@ const Home = () => {
             <Hero />
             <Integrity />
             <Standards />
+            <HomeServices />
+            <HomeConsult />
         </div>
     )
 }

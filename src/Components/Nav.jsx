@@ -9,7 +9,7 @@ const Nav = () => {
         setNav(!nav);
     }
     return (
-        <header className='w-full'>
+        <header className='w-full fixed z-20 bg-white'>
             <nav className='w-[90%] mx-auto py-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                     <img src={Logo} className='h-7 w-7' alt="" />
