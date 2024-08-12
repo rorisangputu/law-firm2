@@ -5,11 +5,11 @@ const Integrity = () => {
         <div className="w-full">
             <div className="w-[90%] mx-auto py-10 font-custom flex flex-col md:flex-row gap-5 items-center">
                 <div className="flex flex-col h-1/2 w-full md:h-[60vh] xl:h-[42vh] md:w-1/2 gap-5 sm:gap-2 lg:gap-5 md:justify-center">
-                    <div className="w-[80%] lg:w-[65%]">
-                        <h1 className="text-3xl leading-[5vh]">We uphold the highest standards of integrity.</h1>
+                    <div className="w-[85%] lg:w-[75%]">
+                        <h1 className="text-3xl leading-[5vh] lg:text-4xl">We uphold the highest standards of integrity.</h1>
                     </div>
                     <div className="py-4 md:py-1 xl:py-4">
-                        <p className="leading-[3vh]">
+                        <p className="leading-[3vh] lg:text-xl">
                             We prioritize our clients&apos; needs, understanding that each case is unique. Our team of seasoned attorneys is committed to delivering tailored solutions, ensuring you receive the attention and representation you deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
                         </p>
                     </div>
