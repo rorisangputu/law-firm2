@@ -4,7 +4,7 @@ const Integrity = () => {
     return (
         <div className="w-full">
             <div className="w-[90%] mx-auto py-10 font-custom flex flex-col md:flex-row gap-5 items-center">
-                <div className="flex flex-col h-1/2 w-full md:h-[42vh] md:w-1/2 gap-5 sm:gap-2 lg:gap-5 ">
+                <div className="flex flex-col h-1/2 w-full md:h-[60vh] xl:h-[42vh] md:w-1/2 gap-5 sm:gap-2 lg:gap-5 md:justify-center">
                     <div className="w-[80%] lg:w-[65%]">
                         <h1 className="text-3xl leading-[5vh]">We uphold the highest standards of integrity.</h1>
                     </div>
