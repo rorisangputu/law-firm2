@@ -8,7 +8,7 @@ const HomeConsult = () => {
                     <div className='flex bg-blue-100 p-5 h-[19vh] mr-5 '>
                         <div className='flex flex-col gap-4 justify-center'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-3xl font-medium'>
+                                <h1 className='text-2xl sm:text-3xl font-medium'>
                                     Initial consultation
                                 </h1>
                                 <p>01</p>
@@ -22,7 +22,7 @@ const HomeConsult = () => {
                     <div className='flex bg-blue-950 p-5 h-[19vh] ml-5 text-white'>
                         <div className='flex flex-col gap-4 justify-center'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-3xl font-medium'>
+                                <h1 className='text-2xl sm:text-3xl font-medium'>
                                     Tailored legal strategy
                                 </h1>
                                 <p>02</p>
@@ -36,7 +36,7 @@ const HomeConsult = () => {
                     <div className='flex bg-blue-100 p-5 h-[19vh] mr-5 '>
                         <div className='flex flex-col gap-4 justify-center'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-3xl font-medium'>
+                                <h1 className='text-2xl sm:text-3xl font-medium'>
                                     Dedicated representation
                                 </h1>
                                 <p>03</p>

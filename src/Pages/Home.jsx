@@ -2,7 +2,9 @@ import Hero from "../Components/Hero"
 import HomeConsult from "../Components/HomeConsult"
 import HomeServices from "../Components/HomeServices"
 import Integrity from "../Components/Integrity"
+import Laywers from "../Components/Laywers"
 import Standards from "../Components/Standards"
+import Trust from "../Components/Trust"
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <Standards />
             <HomeServices />
             <HomeConsult />
+            <Trust />
+            <Laywers />
         </div>
     )
 }

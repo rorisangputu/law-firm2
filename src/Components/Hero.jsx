@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <div className="w-full h-[85vh] flex items-center justify-center"
+        <div className="w-full h-[95vh] flex items-center justify-center pt-16"
             style={{
                 backgroundImage: 'url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
                 backgroundPosition: 'left',
@@ -11,12 +11,12 @@ const Hero = () => {
             <div className="w-[90%] h-full mx-auto py-10 md:py-20 flex flex-col gap-10 justify-center">
                 <div className="w-full md:w-[70%] lg:w-[60%] flex flex-col gap-5 md:gap-8">
                     <div className="text-white">
-                        <h1 className="text-[43px] md:text-[48px] lg:text-[55px] lg:font-semibold leading-[5vh] md:leading-[7vh] font-custom">
+                        <h1 className="text-[38px] sm:text-[43px] md:text-[48px] lg:text-[55px] lg:font-semibold leading-[5vh] md:leading-[7vh] font-custom">
                             We tailor our approach to meet individual needs
                         </h1>
                     </div>
                     <div className="text-white font-light font-custom ">
-                        <p className="leading-[3vh] md:leading-[4vh] md:text-lg">
+                        <p className="leading-[2.5vh] sm:leading-[3vh] md:leading-[4vh] text-sm md:text-lg">
                             Our team of seasoned attorneys is committed to delivering tailored solutions, ensuring you receive the attention and representation you deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
                         </p>
                     </div>
@@ -29,7 +29,7 @@ const Hero = () => {
                         </button>
                     </div>
                 </div>
-                <div className="w-full  h-[25vh] bg-[#1b2048] flex flex-col md:flex-row md:justify-around p-5 font-custom">
+                <div className="w-full  h-[30vh] bg-[#1b2048] flex flex-col md:flex-row md:justify-around p-5 font-custom">
                     <div className="flex justify-between md:w-[65%] xl:w-[60%] gap-5">
                         <div className="flex flex-col justify-center items-center text-white my-4">
                             <h1 className="text-5xl lg:text-5xl mb-2">
