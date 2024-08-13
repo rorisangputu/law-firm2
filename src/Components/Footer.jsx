@@ -18,9 +18,9 @@ const Footer = () => {
                         {/* Address 1 */}
                         <div className="flex flex-col gap-6 py-5">
                             <div className="border-b-2 border-white w-[8rem] pb-2">
-                                <h3 className="font-semibold">Johannesburg</h3>
+                                <h3 className="">Johannesburg</h3>
                             </div>
-                            <p className="flex flex-col gap-1">
+                            <p className="flex flex-col gap-1 font-light">
                                 <span>CommPark Suites</span>
                                 <span>56 Hatthaway Street,</span>
                                 <span>Rosebank, Jhb</span>
@@ -29,9 +29,9 @@ const Footer = () => {
                         {/* Address 2 */}
                         <div className="flex flex-col gap-6 py-5">
                             <div className="border-b-2 border-white w-[6rem] pb-2">
-                                <h3 className="font-semibold">Cape Town</h3>
+                                <h3 className="">Cape Town</h3>
                             </div>
-                            <p className="flex flex-col gap-1">
+                            <p className="flex flex-col gap-1 font-light">
                                 <span>Signal Hill Office Park</span>
                                 <span>12 Signal Road,</span>
                                 <span>Green Point, CT</span>
@@ -40,9 +40,9 @@ const Footer = () => {
                         {/* Address 3 */}
                         <div className="flex flex-col gap-6 py-5">
                             <div className="border-b-2 border-white w-[4rem] pb-2">
-                                <h3 className="font-semibold">Durban</h3>
+                                <h3 className="">Durban</h3>
                             </div>
-                            <p className="flex flex-col gap-1">
+                            <p className="flex flex-col gap-1 font-light">
                                 <span>Beachfront Towers</span>
                                 <span>101 Marine Parade,</span>
                                 <span>Durban Central, DBN</span>
