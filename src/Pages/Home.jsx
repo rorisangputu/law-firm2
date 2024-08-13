@@ -1,3 +1,4 @@
+import Form from "../Components/Form"
 import Hero from "../Components/Hero"
 import HomeConsult from "../Components/HomeConsult"
 import HomeServices from "../Components/HomeServices"
@@ -16,6 +17,7 @@ const Home = () => {
             <HomeConsult />
             <Trust />
             <Laywers />
+            <Form />
         </div>
     )
 }

@@ -3,7 +3,7 @@
 const Laywers = () => {
     return (
         <div className='w-full'>
-            <div className='w-[90%] mx-auto font-custom flex flex-col gap-7 py-10'>
+            <div className='w-[90%] mx-auto font-custom flex flex-col  gap-7 py-10'>
                 <div className="flex flex-col gap-5 ">
                     {/* Title and paragraph */}
                     <div className="flex flex-col gap-4">
@@ -35,7 +35,7 @@ const Laywers = () => {
                 </div>
                 {/* Lawyers picture list */}
                 <div className="">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-y-7">
+                    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6  gap-y-7">
                         {/* Lawyer 1 */}
                         <div className="flex flex-col items-center">
                             <div className="w-40 h-40 overflow-hidden rounded-full">
@@ -82,6 +82,34 @@ const Laywers = () => {
                         </div>
 
                         {/* Lawyer 4 */}
+                        <div className="flex flex-col items-center">
+                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                                <img
+                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
+                                    alt="Theresa Webb"
+                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                />
+                            </div>
+                            <div className="text-center mt-2">
+                                <h1 className="text-lg font-semibold">Lawyer 4</h1>
+                                <p className="text-md text-gray-500">Position</p>
+                            </div>
+                        </div>
+                        {/* Lawyer 5 */}
+                        <div className="flex flex-col items-center">
+                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                                <img
+                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
+                                    alt="Theresa Webb"
+                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                />
+                            </div>
+                            <div className="text-center mt-2">
+                                <h1 className="text-lg font-semibold">Lawyer 4</h1>
+                                <p className="text-md text-gray-500">Position</p>
+                            </div>
+                        </div>
+                        {/* Lawyer 6 */}
                         <div className="flex flex-col items-center">
                             <div className="w-40 h-40 overflow-hidden rounded-full">
                                 <img
