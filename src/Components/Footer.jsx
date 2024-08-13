@@ -59,11 +59,11 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="flex flex-col gap-1">
-                        <p>&copy; 2024 In Law. All rights reserved.</p>
+                    <div className="flex flex-col gap-2">
+                        <p className="text-md md:text-lg">&copy; 2024 In Law. All rights reserved.</p>
                         <div className="flex gap-3 items-center">
-                            <FaXTwitter className="h-5" />
-                            <IoLogoFacebook className="h-6" />
+                            <FaXTwitter className="h-5 w-5 md:h-6 md:w-6" />
+                            <IoLogoFacebook className="h-6 w-6 md:h-6 md:w-6" />
                         </div>
                     </div>
                 </div>

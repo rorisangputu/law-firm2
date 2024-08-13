@@ -4,7 +4,7 @@ const Trust = () => {
     return (
         <div className='w-full font-custom py-7 relative h-[70vh] flex flex-col justify-end text-white'
             style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1633158832532-f71e9c7ac6d6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661394715096-46bb7027fc27?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 backgroundPosition: 'left',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
