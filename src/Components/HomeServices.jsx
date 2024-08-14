@@ -31,13 +31,13 @@ const HomeServices = () => {
                     >
                         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                         <div className='z-10 relative flex flex-col gap-3'>
-                            <div className='h-16 w-16 bg-blue-100 rounded-full flex justify-center items-center'>
-                                <FaUserInjured className="h-8 w-8 text-blue-950" />
+                            <div className='h-12 w-12 md:h-16  md:w-16 bg-blue-100 rounded-full flex justify-center items-center'>
+                                <FaUserInjured className="h-6 w-6 md:h-8  md:w-8 text-blue-950" />
                             </div>
-                            <h1 className='text-3xl'>
+                            <h1 className='text-xl md:text-3xl'>
                                 Personal Injury
                             </h1>
-                            <p>
+                            <p className="text-sm md:text-base">
                                 We are dedicated to providing exceptional legal services with expertise,
                                 and a personalized approach
                             </p>
@@ -56,13 +56,13 @@ const HomeServices = () => {
                     >
                         <div className="absolute inset-0 bg-black bg-opacity-50 "></div>
                         <div className='z-10 relative flex flex-col gap-3'>
-                            <div className='h-16 w-16 bg-blue-100 rounded-full flex justify-center items-center'>
-                                <MdFamilyRestroom className="h-8 w-8 text-blue-950" />
+                            <div className='h-12 w-12 md:h-16  md:w-16 bg-blue-100 rounded-full flex justify-center items-center'>
+                                <MdFamilyRestroom className="h-6 w-6 md:h-8  md:w-8 text-blue-950" />
                             </div>
-                            <h1 className='text-3xl'>
+                            <h1 className='text-xl md:text-3xl'>
                                 Family Law Advocacy
                             </h1>
-                            <p>
+                            <p className="text-sm md:text-base">
                                 We are dedicated to providing exceptional legal services with expertise,
                                 and a personalized approach
                             </p>
@@ -81,13 +81,13 @@ const HomeServices = () => {
                     >
                         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                         <div className='z-10 relative flex flex-col gap-3'>
-                            <div className='h-16 w-16 bg-blue-100 rounded-full flex justify-center items-center'>
-                                <MdRealEstateAgent className="h-8 w-8 text-blue-950" />
+                            <div className='h-12 w-12 md:h-16  md:w-16 bg-blue-100 rounded-full flex justify-center items-center'>
+                                <MdRealEstateAgent className="h-6 w-6 md:h-8  md:w-8 text-blue-950" />
                             </div>
-                            <h1 className='text-3xl'>
+                            <h1 className='text-xl md:text-3xl'>
                                 Real Estate Transactions
                             </h1>
-                            <p>
+                            <p className="text-sm md:text-base">
                                 We are dedicated to providing exceptional legal services with expertise,
                                 and a personalized approach
                             </p>
