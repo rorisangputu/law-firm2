@@ -6,9 +6,9 @@ const HomeConsult = () => {
             <div className='w-[90%] mx-auto font-custom flex flex-col lg:flex-row gap-7'>
                 <div className='flex flex-col gap-6 lg:w-1/2'>
                     <div className='flex bg-blue-100 p-5 h-[19vh] mr-5 '>
-                        <div className='flex flex-col gap-4 justify-center'>
+                        <div className='flex flex-col gap-3 justify-center'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-2xl sm:text-3xl font-medium'>
+                                <h1 className='text-xl md:text-3xl font-medium'>
                                     Initial consultation
                                 </h1>
                                 <p>01</p>
@@ -19,24 +19,24 @@ const HomeConsult = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='flex bg-blue-950 p-5 h-[19vh] ml-5 text-white'>
-                        <div className='flex flex-col gap-4 justify-center'>
+                    <div className='flex bg-blue-950 md:p-5 h-[19vh] ml-5 text-white'>
+                        <div className='flex flex-col gap-3 justify-center w-[90%] mx-auto'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-2xl sm:text-3xl font-medium'>
+                                <h1 className='text-xl md:text-3xl font-medium'>
                                     Tailored legal strategy
                                 </h1>
                                 <p>02</p>
                             </div>
-                            <p>
+                            <p className='text-sm md:text-base'>
                                 Our comprehensive expertise allows us to handle a wide range of legal matters
                                 effectively
                             </p>
                         </div>
                     </div>
                     <div className='flex bg-blue-100 p-5 h-[19vh] mr-5 '>
-                        <div className='flex flex-col gap-4 justify-center'>
+                        <div className='flex flex-col gap-3 justify-center'>
                             <div className='flex w-full justify-between items-center'>
-                                <h1 className='text-2xl sm:text-3xl font-medium'>
+                                <h1 className='text-lg md:text-3xl font-medium'>
                                     Dedicated representation
                                 </h1>
                                 <p>03</p>
