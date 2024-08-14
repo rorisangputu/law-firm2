@@ -9,7 +9,7 @@ const Nav = () => {
         setNav(!nav);
     }
     return (
-        <header className='w-full fixed z-20 bg-white'>
+        <header className='w-full  z-20 bg-white'>
             <nav className='w-[90%] mx-auto py-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                     <img src={Logo} className='h-7 w-7' alt="" />
@@ -18,18 +18,20 @@ const Nav = () => {
                 <div>
                     <ul className='hidden md:flex gap-4 font-custom text-lg items-center'>
                         <li className=''>
-                            Home
+                            <Link to={"/"}>Home </Link>
                         </li>
                         <li className=''>
-                            About
+                            <Link to={"/the-firm"}>The Firm</Link>
                         </li>
                         <li className=''>
-                            Attorney
+                            <Link to={"/attorney"}>People</Link>
                         </li>
                         <li>
-                            <div className='border border-black rounded-md p-1'>
-                                Get in touch
-                            </div>
+                            <Link>
+                                <div className='border border-black rounded-md p-1'>
+                                    Get in touch
+                                </div>
+                            </Link>
                         </li>
                     </ul>
                     <div onClick={handleNav} className='block md:hidden'>
@@ -49,10 +51,10 @@ const Nav = () => {
                                 <Link to={"/"}>Home </Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white '>
-                                <Link to={"/about"}>About</Link>
+                                <Link to={"/the-firm"}>The Firm</Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white'>
-                                <Link to={"/attorney"}>Attorneys</Link>
+                                <Link to={"/attorney"}>People</Link>
                             </li>
                             <li className=' '>
                                 <Link to={"/contact"}>
