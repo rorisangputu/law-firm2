@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col gap-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-4 lg:flex lg:justify-between">
+                    <div className="grid grid-cols-1 md:grid-cols-4 lg:flex lg:justify-between">
                         {/* Address 1 */}
                         <div className="flex flex-col gap-6 py-5">
                             <div className="border-b-2 border-white w-[8rem] pb-2">

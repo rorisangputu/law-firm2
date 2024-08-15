@@ -21,10 +21,13 @@ const Nav = () => {
                             <Link to={"/"}>Home </Link>
                         </li>
                         <li className=''>
+                            <Link to={"/about"}>About</Link>
+                        </li>
+                        <li className=''>
                             <Link to={"/the-firm"}>The Firm</Link>
                         </li>
                         <li className=''>
-                            <Link to={"/attorney"}>People</Link>
+                            <Link to={"/people"}>People</Link>
                         </li>
                         <li>
                             <Link>
@@ -51,10 +54,13 @@ const Nav = () => {
                                 <Link to={"/"}>Home </Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white '>
+                                <Link to={"/about"}>About</Link>
+                            </li>
+                            <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white '>
                                 <Link to={"/the-firm"}>The Firm</Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white'>
-                                <Link to={"/attorney"}>People</Link>
+                                <Link to={"/people"}>People</Link>
                             </li>
                             <li className=' '>
                                 <Link to={"/contact"}>
