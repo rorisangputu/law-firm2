@@ -13,10 +13,10 @@ const Nav = () => {
             <nav className='w-[90%] mx-auto py-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                     <img src={Logo} className='h-7 w-7' alt="" />
-                    <h1 className='text-3xl font-semibold font-custom'>Law</h1>
+                    <h1 className='text-3xl font-semibold'>Law</h1>
                 </div>
                 <div>
-                    <ul className='hidden md:flex gap-4 font-custom text-lg items-center'>
+                    <ul className='hidden md:flex gap-4 text-lg items-center'>
                         <li className=''>
                             <Link to={"/"}>Home </Link>
                         </li>
@@ -24,7 +24,7 @@ const Nav = () => {
                             <Link to={"/about"}>About</Link>
                         </li>
                         <li className=''>
-                            <Link to={"/the-firm"}>The Firm</Link>
+                            <Link to={"/services"}>Services</Link>
                         </li>
                         <li className=''>
                             <Link to={"/people"}>People</Link>
@@ -46,7 +46,7 @@ const Nav = () => {
                         border-r-gray-900 bg-white ease-in-out duration-500 `
                         : `fixed left-[-100%]`}
                     >
-                        <h1 className='w-full text-3xl font-semibold font-custom m-4 pt-2 text-black '>
+                        <h1 className='w-full text-3xl font-semibold m-4 pt-2 text-black '>
                             Law.
                         </h1>
                         <ul onClick={() => { setNav(false) }} className='cursor-pointer uppercase font-custom'>
@@ -57,7 +57,7 @@ const Nav = () => {
                                 <Link to={"/about"}>About</Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white '>
-                                <Link to={"/the-firm"}>The Firm</Link>
+                                <Link to={"/services"}>Services</Link>
                             </li>
                             <li className='p-4 pl-4 hover:bg-[#000100] hover:text-white'>
                                 <Link to={"/people"}>People</Link>

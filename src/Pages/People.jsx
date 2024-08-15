@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const People = () => {
     const teamMembers = [
@@ -67,15 +67,24 @@ const People = () => {
     return (
         <div className='w-full'>
             {/* Hero Section */}
-            <div className='relative w-full h-[50vh] bg-cover bg-center' style={{ backgroundImage: 'url(https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024)' }}>
-                <div className='absolute inset-0 bg-black opacity-50'></div>
-                <div className='flex justify-center items-center h-full'>
+            <div className='w-full h-[50vh] bg-cover bg-center'
+                style={{
+                    backgroundImage: 'url(https://images.pexels.com/photos/5668481/pexels-photo-5668481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
+                }}>
+
+                <div className='flex justify-center items-center h-full font-custom'>
                     <h1 className='text-white text-5xl font-bold'>People</h1>
                 </div>
             </div>
 
             {/* Team Section */}
-            <div className='w-[90%] mx-auto py-10'>
+            <div className='w-[90%] mx-auto py-10 font-custom'>
+                <div className="py-5 flex flex-col items-center">
+                    <h1 className='text-3xl font-medium'>
+                        Our People
+                    </h1>
+                    <p>Dedicated and inspired professionals.</p>
+                </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {teamMembers.map((member, index) => (
                         <div key={index} className='flex flex-col items-center text-center'>

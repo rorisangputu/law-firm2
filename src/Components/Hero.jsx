@@ -2,8 +2,8 @@ const Hero = () => {
     return (
         <div className="w-full h-full md:h-[95vh] flex items-center justify-center pt-16"
             style={{
-                backgroundImage: 'url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
-                backgroundPosition: 'left',
+                backgroundImage: 'url("https://images.pexels.com/photos/8112201/pexels-photo-8112201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
+                backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
             }}
@@ -32,26 +32,26 @@ const Hero = () => {
                 <div className="w-full  h-[30vh] bg-[#1b2048] flex flex-col md:flex-row md:justify-around p-5 font-custom">
                     <div className="flex justify-between md:w-[65%] xl:w-[60%] gap-5">
                         <div className="flex flex-col justify-center items-center text-white my-4">
-                            <h1 className="text-2xl md:text-5xl lg:text-5xl mb-2">
+                            <h1 className="text-3xl md:text-5xl lg:text-5xl mb-2">
                                 15+
                             </h1>
                             <p className="text-center text-[12px] md:text-base">Years of experience</p>
                         </div>
                         <div className="flex flex-col justify-center items-center text-white my-4">
-                            <h1 className="text-2xl md:text-4xl lg:text-5xl mb-2">
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl mb-2">
                                 98%
                             </h1>
                             <p className="text-center text-[12px] md:text-base">Success rate</p>
                         </div>
                         <div className="flex flex-col justify-center items-center text-white my-4">
-                            <h1 className="text-2xl md:text-4xl lg:text-5xl mb-2">
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl mb-2">
                                 84k
                             </h1>
                             <p className="text-center text-[12px] md:text-base">Clients worldwide</p>
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center text-white md:mr-10">
-                        <h1 className="text-2xl md:text-4xl lg:text-5xl mb-2">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl mb-2">
                             28
                         </h1>
                         <p className="text-center text-[12px] md:text-base">Awards & honors</p>
