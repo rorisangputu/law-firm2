@@ -1,10 +1,8 @@
-import React from 'react'
 import PracticeAreas from '../Components/Services/PracticeAreas'
 import FAQAccordion from '../Components/Services/FAQAccordion'
 import { GoArrowRight } from "react-icons/go";
-import Form from '../Components/Form';
 import ServiceForm from '../Components/Services/ServiceForm';
-
+import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div className='w-full'>
@@ -69,12 +67,14 @@ const Services = () => {
                         <div className='flex flex-col items-center md:items-start '>
                             <div className='flex flex-col items-center text-center md:items-start md:text-start gap-5'>
                                 <h3 className='text-xl'>Legal questions? We&apos;ll take it from here. Contact our top-rated attorneys</h3>
-                                <div className='flex gap-5 bg-white p-3 text-blue-900'>
-                                    <button className='font-medium'>
-                                        LETS WORK TOGETHER
-                                    </button>
-                                    <GoArrowRight className='h-6 w-6' />
-                                </div>
+                                <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                                    <div className='flex gap-5 bg-white p-3 text-blue-900'>
+                                        <button className='font-medium'>
+                                            LETS WORK TOGETHER
+                                        </button>
+                                        <GoArrowRight className='h-6 w-6' />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                         <FAQAccordion />

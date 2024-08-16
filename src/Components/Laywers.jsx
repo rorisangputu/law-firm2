@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const Laywers = () => {
     return (
@@ -29,101 +29,78 @@ const Laywers = () => {
                         </p>
                     </div>
                     {/* Button */}
-                    <button className="font-custom bg-blue-100 p-4 w-[50%] lg:text-lg">
-                        Show All Members
-                    </button>
+
                 </div>
                 {/* Lawyers picture list */}
-                <div className="">
-                    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6  gap-y-7">
+                <div className="flex flex-col gap-5">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-y-7">
                         {/* Lawyer 1 */}
                         <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                            <div className="w-40 h-40 overflow-hidden">
                                 <img
                                     src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
                                     alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                    className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-110"
                                 />
                             </div>
                             <div className="text-center mt-2">
                                 <h1 className="text-lg font-semibold">Theresa Webb</h1>
-                                <p className="text-md text-gray-500">Founder</p>
+                                <p className="text-md text-gray-500">Founder, Advocate</p>
                             </div>
                         </div>
 
                         {/* Lawyer 2 */}
                         <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                            <div className="w-40 h-40 overflow-hidden ">
                                 <img
-                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
+                                    src="https://framerusercontent.com/images/CfuRRl1Mx0mrVMAounyyBpmaMs.jpg?scale-down-to=1024"
                                     alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                    className="w-full h-full object-cover object-top transform transition-transform duration-300 hover:scale-110"
                                 />
                             </div>
                             <div className="text-center mt-2">
-                                <h1 className="text-lg font-semibold">Lawyer 2</h1>
-                                <p className="text-md text-gray-500">Position</p>
+                                <h1 className="text-lg font-semibold">Mable Glenn</h1>
+                                <p className="text-md text-gray-500">Managing Partner, Corporate Law Specialist</p>
                             </div>
                         </div>
 
                         {/* Lawyer 3 */}
                         <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                            <div className="w-40 h-40 overflow-hidden">
                                 <img
-                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
+                                    src="https://framerusercontent.com/images/vGBlLkem8Mf3FiKCXU6F6w310.jpg?scale-down-to=1024"
                                     alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                    className="w-full h-full object-cover object-top transform transition-transform duration-300 hover:scale-110"
                                 />
                             </div>
                             <div className="text-center mt-2">
-                                <h1 className="text-lg font-semibold">Lawyer 3</h1>
-                                <p className="text-md text-gray-500">Position</p>
+                                <h1 className="text-lg font-semibold">Franklin Stone</h1>
+                                <p className="text-md text-gray-500">Head of Litigation, Senior Partner</p>
                             </div>
                         </div>
 
                         {/* Lawyer 4 */}
                         <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
+                            <div className="w-40 h-40 overflow-hidden">
                                 <img
-                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
+                                    src="https://framerusercontent.com/images/9W6cJpv13e1fpHL46F81vh714.jpg?scale-down-to=1024"
                                     alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+                                    className="w-full h-full object-cover object-top transform transition-transform duration-300 hover:scale-110"
                                 />
                             </div>
                             <div className="text-center mt-2">
-                                <h1 className="text-lg font-semibold">Lawyer 4</h1>
-                                <p className="text-md text-gray-500">Position</p>
+                                <h1 className="text-lg font-semibold">Henry Bennett</h1>
+                                <p className="text-md text-gray-500">Senior Partner, Employment Law</p>
                             </div>
                         </div>
-                        {/* Lawyer 5 */}
-                        <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
-                                <img
-                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
-                                    alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
-                                />
-                            </div>
-                            <div className="text-center mt-2">
-                                <h1 className="text-lg font-semibold">Lawyer 4</h1>
-                                <p className="text-md text-gray-500">Position</p>
-                            </div>
-                        </div>
-                        {/* Lawyer 6 */}
-                        <div className="flex flex-col items-center">
-                            <div className="w-40 h-40 overflow-hidden rounded-full">
-                                <img
-                                    src="https://framerusercontent.com/images/a6V9t9YFzI29cz5gMQRbfWgjVS4.jpg?scale-down-to=1024"
-                                    alt="Theresa Webb"
-                                    className="w-full h-full rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
-                                />
-                            </div>
-                            <div className="text-center mt-2">
-                                <h1 className="text-lg font-semibold">Lawyer 4</h1>
-                                <p className="text-md text-gray-500">Position</p>
-                            </div>
-                        </div>
+
                     </div>
+                    <Link to="/people" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                        <button className="font-custom bg-blue-100 p-4 w-[50%] lg:text-lg">
+                            Show All Members
+                        </button>
+                    </Link>
+
                 </div>
 
             </div>

@@ -30,7 +30,7 @@ const Nav = () => {
                             <Link to={"/people"}>People</Link>
                         </li>
                         <li>
-                            <Link>
+                            <Link to={'/contacts'}>
                                 <div className='border border-black rounded-md p-1'>
                                     Get in touch
                                 </div>
@@ -63,7 +63,7 @@ const Nav = () => {
                                 <Link to={"/people"}>People</Link>
                             </li>
                             <li className=' '>
-                                <Link to={"/contact"}>
+                                <Link to={"/contacts"}>
                                     <div className='border border-black hover:bg-[#ffff] hover:text-black  p-2 rounded-2xl bg-black text-white w-40 text-center'>
                                         Get in touch
                                     </div>

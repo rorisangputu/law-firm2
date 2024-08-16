@@ -1,5 +1,5 @@
 import { GoArrowRight } from "react-icons/go";
-
+import { Link } from "react-router-dom";
 const PracticeAreas = () => {
     const practiceAreas = [
         {
@@ -60,12 +60,15 @@ const PracticeAreas = () => {
                         </div>
                     ))}
                 </div>
-                <div className='flex text-white bg-blue-950 p-3 mt-10 w-[100%] lg:w-[20%] gap-5 items-center justify-center'>
-                    <button className='font-medium'>
-                        CONTACT US TODAY
-                    </button>
-                    <GoArrowRight className='h-6 w-6' />
-                </div>
+
+                <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <div className='flex text-white bg-blue-950 p-3 mt-10 w-[100%] lg:w-[20%] gap-5 items-center justify-center'>
+                        <button className='font-medium'>
+                            CONTACT US TODAY
+                        </button>
+                        <GoArrowRight className='h-6 w-6' />
+                    </div>
+                </Link>
             </div>
         </div>
     );

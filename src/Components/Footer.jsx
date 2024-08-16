@@ -1,20 +1,25 @@
 import { IoLogoFacebook } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <div className="w-full bg-blue-950">
             <div className="w-[90%] mx-auto flex flex-col gap-6 text-white font-custom py-10">
                 <div className="flex flex-col md:flex-row md:justify-between gap-3">
-                    <div className="w-32 text-center p-4 border border-white">
-                        Visit us
-                    </div>
-                    <div className="w-36 text-center p-4 border border-white">
-                        Stay in touch
-                    </div>
+                    <Link>
+                        <div className="w-32 text-center p-4 border border-white">
+                            Visit us
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className="w-36 text-center p-4 border border-white">
+                            Stay in touch
+                        </div>
+                    </Link>
                 </div>
                 <div className="flex flex-col gap-10">
-                    <div className="grid grid-cols-1 md:grid-cols-4 lg:flex lg:justify-between">
+                    <div className="grid grid-cols-1 :grid-cols-4 lg:flex lg:justify-between">
                         {/* Address 1 */}
                         <div className="flex flex-col gap-6 py-5">
                             <div className="border-b-2 border-white w-[8rem] pb-2">

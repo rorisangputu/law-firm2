@@ -1,7 +1,7 @@
 import { FaUserInjured } from "react-icons/fa6";
 import { MdFamilyRestroom } from "react-icons/md";
 import { MdRealEstateAgent } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 
 const HomeServices = () => {
     return (
@@ -16,9 +16,12 @@ const HomeServices = () => {
                             We prioritize our clients&apos; needs, understanding that each case is unique
                         </p>
                     </div>
-                    <button className="font-custom bg-blue-100 p-4">
-                        Explore All
-                    </button>
+                    <Link to={'/services'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                        <button className="font-custom bg-blue-100 p-4">
+                            Explore All
+                        </button>
+                    </Link>
+
                 </div>
                 <div className='flex flex-col lg:flex-row gap-5 lg:gap-8'>
                     <div className='w-full relative p-5 h-[40vh] flex flex-col justify-end text-white'

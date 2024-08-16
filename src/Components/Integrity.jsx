@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Integrity = () => {
     return (
@@ -14,12 +14,16 @@ const Integrity = () => {
                         </p>
                     </div>
                     <div className="flex gap-3">
-                        <button className="font-custom bg-blue-100 p-4">
-                            Book Consultation
-                        </button>
-                        <button className="font-custom text-black  p-4">
-                            Explore More
-                        </button>
+                        <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                            <button className=" bg-blue-100 p-2 md:p-4">
+                                Book Consultation
+                            </button>
+                        </Link>
+                        <Link to={'/about'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >
+                            <button className="font-custom text-black p-2 md:p-4">
+                                Explore More
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="h-full w-full md:h-[42vh] md:w-1/2 flex justify-center items-center">

@@ -7,7 +7,7 @@ const CoreValues = () => {
             <div className='w-[90%] mx-auto font-custom text-black py-10'>
                 <div className='flex flex-col lg:flex-row gap-4'>
                     <div className='flex flex-col gap-5'>
-                        <h1 className='text-2xl'>Our Core Values</h1>
+                        <h1 className='text-2xl md:text-4xl'>Our Core Values</h1>
                         <p>
                             Guided by our fundamental principles, we embrace a set of core values
                             that shape our decisions and actions, ensuring we deliver the highest

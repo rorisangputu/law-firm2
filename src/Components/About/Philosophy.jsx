@@ -6,7 +6,7 @@ const Philosophy = () => {
             <div className='w-[90%] mx-auto font-custom'>
                 <div className='flex flex-col py-7'>
                     <div className='flex flex-col gap-5'>
-                        <h1 className='text-2xl'>Our Philosophy</h1>
+                        <h1 className='text-2xl md:text-5xl'>Our Philosophy</h1>
                         <div className='flex flex-col gap-3'>
                             <p>
                                 At In Law, we believe that legal counsel should be proactive, not reactive.

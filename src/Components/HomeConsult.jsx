@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 const HomeConsult = () => {
     return (
         <div className='w-full py-5'>
@@ -56,9 +56,11 @@ const HomeConsult = () => {
                         <p className='leading-[3vh] lg:text-center lg:text-xl'>
                             We prioritize our clients&apos; needs, understanding that each case is unique. Our team of seasoned attorneys is committed to delivering tailored solutions, ensuring you receive the attention and representation you deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
                         </p>
-                        <button className="font-custom bg-blue-100 p-4 w-[50%] lg:text-lg">
-                            Get a free consultation
-                        </button>
+                        <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                            <button className="font-custom bg-blue-100 p-4 lg:text-lg">
+                                Get a free consultation
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

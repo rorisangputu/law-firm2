@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Hero = () => {
     return (
         <div className="w-full h-full md:h-[95vh] flex items-center justify-center pt-16"
@@ -21,12 +22,17 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="flex gap-3">
-                        <button className=" bg-blue-100 p-2 md:p-4">
-                            Book Consultation
-                        </button>
-                        <button className=" text-slate-200 border border-slate-200 p-2 md:p-4">
-                            Explore More
-                        </button>
+                        <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                            <button className=" bg-blue-100 p-2 md:p-4">
+                                Book Consultation
+                            </button>
+                        </Link>
+                        <Link to={'/services'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                            <button className=" text-slate-200 border border-slate-200 p-2 md:p-4">
+                                Explore More
+                            </button>
+                        </Link>
+
                     </div>
                 </div>
                 <div className="w-full  h-[30vh] bg-[#1b2048] flex flex-col md:flex-row md:justify-around p-5 font-custom">
