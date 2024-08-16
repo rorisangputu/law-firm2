@@ -31,7 +31,7 @@ const Nav = () => {
                         </li>
                         <li>
                             <Link to={'/contacts'}>
-                                <div className='hover:border bg-black text-white hover:bg-white hover:text-black hover:border-black  p-1'>
+                                <div className='hover:border bg-black text-white hover:bg-white hover:text-black hover:border-black  p-1 py-2'>
                                     Get in touch
                                 </div>
                             </Link>
