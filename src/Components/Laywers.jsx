@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Laywers = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full py-10'>
             <div className='w-[90%] mx-auto font-custom flex flex-col  gap-7 py-10'>
                 <div className="flex flex-col gap-5 ">
                     {/* Title and paragraph */}
