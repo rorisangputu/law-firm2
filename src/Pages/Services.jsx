@@ -20,7 +20,7 @@ const Services = () => {
                 </div>
             </div>
             {/* Services Section */}
-            <div className='w-[90%] mx-auto'>
+            <div className='w-[90%] mx-auto py-12'>
                 <div className='py-10 flex flex-col gap-4'>
                     <h1 className='text-3xl md:text-5xl'>
                         Our Services
@@ -33,11 +33,11 @@ const Services = () => {
                         we serve clients from across the globe, offering unmatched expertise in South African law.
                     </p>
                 </div>
-                <div className='flex flex-col gap-3 py-3 items-center'>
+                <div className='flex flex-col gap-3 py-16 items-center'>
                     <PracticeAreas />
                 </div>
 
-                <div className='p-5 flex flex-col lg:flex-row-reverse lg:items-center gap-5 py-10'>
+                <div className='p-5 flex flex-col lg:flex-row-reverse lg:items-center gap-5 py-10 mb-10'>
                     <div className='lg:w-1/2'>
                         <img src="https://images.pexels.com/photos/4427626/pexels-photo-4427626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
@@ -59,12 +59,12 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col bg-blue-900 text-white p-5 items-center gap-7 py-12 mb-10'>
-                    <div className='text-3xl text-center md:text-start'>
+                <div className='flex flex-col bg-blue-900 text-white p-5 items-center gap-5 py-12 mb-10'>
+                    <div className='text-3xl text-center md:text-start mt-7'>
                         <h1>Frequently Asked Questions</h1>
                     </div>
-                    <div className=' flex flex-col md:flex-row items-center gap-4'>
-                        <div className='flex flex-col items-center md:items-start '>
+                    <div className=' flex flex-col lg:flex-row justify-center items-center'>
+                        <div className='flex flex-col items-center lg:w-2/5  md:items-start '>
                             <div className='flex flex-col items-center text-center md:items-start md:text-start gap-5'>
                                 <h3 className='text-xl'>Legal questions? We&apos;ll take it from here. Contact our top-rated attorneys</h3>
                                 <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
@@ -77,7 +77,9 @@ const Services = () => {
                                 </Link>
                             </div>
                         </div>
-                        <FAQAccordion />
+                        <div className='lg:w-3/5 '>
+                            <FAQAccordion />
+                        </div>
                     </div>
                 </div>
                 <div>
