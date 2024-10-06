@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const HomeServices = () => {
     return (
-        <div className='w-full font-custom'>
-            <div className='w-[90%] mx-auto py-10 flex flex-col  gap-7'>
-                <div>
+        <div className='w-full font-custom py-10'>
+            <div className='w-[90%] mx-auto py-5 flex flex-col  gap-7'>
+                <div className="flex flex-col items-start">
                     <div>
                         <h1 className='text-4xl'>
                             Servcies
