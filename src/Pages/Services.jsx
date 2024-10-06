@@ -66,7 +66,7 @@ const Services = () => {
                     <div className=' flex flex-col lg:flex-row justify-center items-center'>
                         <div className='flex flex-col items-center lg:w-2/5  md:items-start '>
                             <div className='flex flex-col items-center text-center md:items-start md:text-start gap-5'>
-                                <h3 className='text-xl'>Legal questions? We&apos;ll take it from here. Contact our top-rated attorneys</h3>
+                                <h3 className='text-xl max-w-[300px] lg:max-w-2xl'>Legal questions? We&apos;ll take it from here. Contact our top-rated attorneys</h3>
                                 <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                                     <div className='flex gap-5 bg-white p-3 text-blue-900'>
                                         <button className='font-medium'>
