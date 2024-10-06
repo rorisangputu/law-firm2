@@ -21,9 +21,9 @@ const Hero = () => {
                             Our team of seasoned attorneys is committed to delivering tailored solutions, ensuring you receive the attention and representation you deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
                         </p>
                     </div>
-                    <div className="flex gap-3">
+                    <div className="flex items-center gap-3">
                         <Link to={'/contacts'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-                            <button className=" bg-blue-100 p-2 md:p-4">
+                            <button className=" bg-blue-100 border-blue-100 p-2 md:p-4">
                                 Book Consultation
                             </button>
                         </Link>
@@ -35,8 +35,8 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className="w-full  h-[30vh] bg-[#1b2048] flex flex-col md:flex-row md:justify-around p-5 font-custom">
-                    <div className="flex justify-between md:w-[65%] xl:w-[60%] gap-5">
+                <div className="w-full  h-[20vh] bg-[#1b2048] flex flex-col md:flex-row justify-center p-5 font-custom">
+                    <div className="flex justify-between md:w-[65%] xl:w-[90%] gap-5">
                         <div className="flex flex-col justify-center items-center text-white my-4">
                             <h1 className="text-3xl md:text-5xl lg:text-5xl mb-2">
                                 15+
@@ -49,19 +49,14 @@ const Hero = () => {
                             </h1>
                             <p className="text-center text-[12px] md:text-base">Success rate</p>
                         </div>
-                        <div className="flex flex-col justify-center items-center text-white my-4">
+                        <div className="flex flex-col justify-center items-center text-white md:mr-10">
                             <h1 className="text-3xl md:text-4xl lg:text-5xl mb-2">
-                                84k
+                                28
                             </h1>
-                            <p className="text-center text-[12px] md:text-base">Clients worldwide</p>
+                            <p className="text-center text-[12px] md:text-base">Awards & honors</p>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center text-white md:mr-10">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl mb-2">
-                            28
-                        </h1>
-                        <p className="text-center text-[12px] md:text-base">Awards & honors</p>
-                    </div>
+
                 </div>
             </div>
         </div>
