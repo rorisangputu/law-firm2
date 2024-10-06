@@ -1,10 +1,10 @@
-import React from 'react'
+
 
 const Philosophy = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full py-10 lg:py-20'>
             <div className='w-[90%] mx-auto font-custom'>
-                <div className='flex flex-col py-7'>
+                <div className='flex flex-col py-5'>
                     <div className='flex flex-col gap-5'>
                         <h1 className='text-2xl md:text-5xl'>Our Philosophy</h1>
                         <div className='flex flex-col gap-3'>
