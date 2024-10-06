@@ -9,14 +9,14 @@ const Nav = () => {
         setNav(!nav);
     }
     return (
-        <header className='w-full  z-20 bg-white'>
+        <header className='w-full  z-20 bg-[#1b2048]'>
             <nav className='w-[90%] mx-auto py-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
-                    <img src={Logo} className='h-7 w-7' alt="" />
-                    <h1 className='text-3xl font-semibold'>Law</h1>
+                    <img src={Logo} className='h-7 w-7 text-white' alt="" />
+                    <h1 className='text-3xl text-white font-semibold'>Law</h1>
                 </div>
                 <div>
-                    <ul className='hidden md:flex gap-4 text-lg items-center'>
+                    <ul className='hidden md:flex gap-4 text-white text-lg items-center'>
                         <li className=''>
                             <Link to={"/"}>Home </Link>
                         </li>
@@ -31,14 +31,14 @@ const Nav = () => {
                         </li>
                         <li>
                             <Link to={'/contacts'}>
-                                <div className='hover:border bg-black text-white hover:bg-white hover:text-black hover:border-black  p-1 py-2'>
+                                <div className='hover:border bg-black text-white hover:bg-white hover:text-black hover:border-black  px-3 py-2'>
                                     Get in touch
                                 </div>
                             </Link>
                         </li>
                     </ul>
                     <div onClick={handleNav} className='block md:hidden'>
-                        {nav ? <IoCloseOutline className='text-black' size={30} /> : <CiMenuBurger className='text-black' size={30} />}
+                        {nav ? <IoCloseOutline className='text-black' size={30} /> : <CiMenuBurger className='text-white' size={30} />}
 
                     </div>
                     {/* HAMBURGER MENU */}
