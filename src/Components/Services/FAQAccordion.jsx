@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const FAQAccordion = () => {
     return (
-        <div className="flex flex-col justify-evenly">
+        <div className="flex flex-col justify-evenly p-20">
             <Accordion
                 sx={{
                     backgroundColor: 'transparent',
