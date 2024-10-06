@@ -1,8 +1,8 @@
 const MeetTheTeam = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full py-10'>
             <div className='w-[90%] mx-auto font-custom'>
-                <div className='flex flex-col gap-3 py-10'>
+                <div className='flex flex-col gap-3 py-5'>
                     <div className='w-full flex flex-col md:flex-row md:justify-between py-5 gap-3'>
                         <div className="flex flex-col items-center md:justify-center md:items-start gap-2">
                             <h1 className='text-3xl'>
